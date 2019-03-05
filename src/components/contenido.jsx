@@ -15,7 +15,7 @@ class Contenido extends Component {
                 <th>Nombres</th>
                 <th>Apellidos</th>
                 <th>Deporte</th>
-                <th>Municipios</th>
+                <th>Municipio</th>
               </tr>
             </thead>
             <tbody>
