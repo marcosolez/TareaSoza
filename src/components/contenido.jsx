@@ -11,7 +11,7 @@ class Contenido extends Component {
           <table className="table table-striped table-sm">
             <thead>
               <tr>
-                <th>#</th>
+                <th>Identificador</th>
                 <th>Nombres</th>
                 <th>Apellidos</th>
                 <th>Deporte</th>
