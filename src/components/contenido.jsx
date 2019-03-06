@@ -23,9 +23,18 @@ class Contenido extends Component {
   };
 
   render() {
+    const { length: cantidad } = this.state.datos;
+
+    if (cantidad === 0)
+      return (
+        <main role="main" className="col-md-9 ml-sm-auto col-lg-10 px-4">
+          <h4>No hay personas en la base de datos</h4>
+        </main>
+      );
+
     return (
       <main role="main" className="col-md-9 ml-sm-auto col-lg-10 px-4">
-        <h2>Listado de Personas</h2>
+        <h2>Listado de Personas: Total: {cantidad}</h2>
         <div className="table-responsive">
           <button onClick={this.handlerAgregar} className="btn btn-info">
             Agregar Nuevo
