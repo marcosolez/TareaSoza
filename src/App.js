@@ -9,8 +9,8 @@ class App extends Component {
       <React.Fragment>
         <NavegacionTop />
 
-        <div class="container-fluid">
-          <div class="row">
+        <div className="container-fluid">
+          <div className="row">
             <NavegacionLateral />
             <Contenido />
           </div>

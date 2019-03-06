@@ -43,6 +43,6 @@ const personas = [
   }
 ];
 
-export function GetPersonas(params) {
+export function GetPersonas() {
   return personas;
 }
